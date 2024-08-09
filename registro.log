@@ -1,0 +1,124 @@
+[2024-08-08 20:44:20] [ ERROR] [BD:29] error inesperado: La cantidad de columnas no coincide
+Column count does not match; SQL statement:
+INSERT INTO PACIENTES VALUES('Julian','Espinoza','234455667','2024-08-08','1'),('Helen','Vasquez','3445666','2024-07-20','2'); INSERT INTO DOMICILIOS VALUES('Siempre Viva','748','Sprinfield','EUA'),('Calle Falsa','123','Sprinfield','EUA') [21002-224]
+[2024-08-08 20:44:20] [ INFO ] [PacienteDAOH2:84] iniciando las operaciones de : busqueda  de un paciente: 1
+[2024-08-08 20:47:06] [ ERROR] [BD:29] error inesperado: La cantidad de columnas no coincide
+Column count does not match; SQL statement:
+INSERT INTO PACIENTES VALUES('Julian','Espinoza','234455667','2024-08-08','1'),('Helen','Vasquez','3445666','2024-07-20','2'); INSERT INTO DOMICILIOS VALUES('Siempre Viva','748','Sprinfield','EUA'),('Calle Falsa','123','Sprinfield','EUA') [21002-224]
+[2024-08-08 20:47:06] [ INFO ] [PacienteDAOH2:84] iniciando las operaciones de : busqueda  de un paciente: 1
+[2024-08-08 20:48:40] [ ERROR] [BD:29] error inesperado: La cantidad de columnas no coincide
+Column count does not match; SQL statement:
+INSERT INTO PACIENTES VALUES('Julian','Espinoza','234455667','2024-08-08',1),('Helen','Vasquez','3445666','2024-07-20',2); INSERT INTO DOMICILIOS VALUES('Siempre Viva','748','Sprinfield','EUA'),('Calle Falsa','123','Sprinfield','EUA') [21002-224]
+[2024-08-08 20:48:40] [ INFO ] [PacienteDAOH2:84] iniciando las operaciones de : busqueda  de un paciente: 1
+[2024-08-08 20:51:38] [ ERROR] [BD:29] error inesperado: La cantidad de columnas no coincide
+Column count does not match; SQL statement:
+INSERT INTO PACIENTES VALUES('Julian','Espinoza','234455667','2024-08-08',1),('Helen','Vasquez','3445666','2024-07-20',2); INSERT INTO DOMICILIOS VALUES('Siempre Viva','748','Sprinfield','EUA'),('Calle Falsa','123','Sprinfield','EUA') [21002-224]
+[2024-08-08 20:51:38] [ INFO ] [PacienteDAOH2:84] iniciando las operaciones de : busqueda  de un paciente: 1
+[2024-08-08 20:53:35] [ ERROR] [BD:29] error inesperado: La cantidad de columnas no coincide
+Column count does not match; SQL statement:
+INSERT INTO DOMICILIOS VALUES('Siempre Viva','748','Sprinfield','EUA'),('Calle Falsa','123','Sprinfield','EUA'); INSERT INTO PACIENTES VALUES('Julian','Espinoza','234455667','2024-08-08',1),('Helen','Vasquez','3445666','2024-07-20',2) [21002-224]
+[2024-08-08 20:53:35] [ INFO ] [PacienteDAOH2:84] iniciando las operaciones de : busqueda  de un paciente: 1
+[2024-08-08 20:56:54] [ INFO ] [BD:27] datos cargados con exito
+[2024-08-08 20:56:54] [ INFO ] [PacienteDAOH2:84] iniciando las operaciones de : busqueda  de un paciente: 1
+[2024-08-08 20:56:54] [ INFO ] [DomicilioDAOH2:49] iniciando las operaciones de : busqueda de un domicilio con ID: 1
+[2024-08-08 20:57:40] [ INFO ] [BD:27] datos cargados con exito
+[2024-08-08 20:57:40] [ INFO ] [PacienteDAOH2:84] iniciando las operaciones de : busqueda  de un paciente: 2
+[2024-08-08 20:57:40] [ INFO ] [DomicilioDAOH2:49] iniciando las operaciones de : busqueda de un domicilio con ID: 2
+[2024-08-08 20:57:51] [ INFO ] [BD:27] datos cargados con exito
+[2024-08-08 20:57:51] [ INFO ] [PacienteDAOH2:84] iniciando las operaciones de : busqueda  de un paciente: 27
+[2024-08-08 20:58:16] [ INFO ] [BD:27] datos cargados con exito
+[2024-08-08 20:58:16] [ INFO ] [PacienteDAOH2:84] iniciando las operaciones de : busqueda  de un paciente: 27
+[2024-08-08 20:59:19] [ INFO ] [BD:27] datos cargados con exito
+[2024-08-08 20:59:19] [ INFO ] [PacienteDAOH2:84] iniciando las operaciones de : busqueda  de un paciente: 2
+[2024-08-08 20:59:19] [ INFO ] [DomicilioDAOH2:49] iniciando las operaciones de : busqueda de un domicilio con ID: 2
+[2024-08-08 19:50:39] [ INFO ] [BD:27] datos cargados con exito
+[2024-08-08 19:50:39] [ INFO ] [PacienteDAOH2:84] iniciando las operaciones de : busqueda  de un paciente: 2
+[2024-08-08 19:50:39] [ INFO ] [DomicilioDAOH2:49] iniciando las operaciones de : busqueda de un domicilio con ID: 2
+[2024-08-08 20:03:22] [ INFO ] [BD:30] datos cargados con exito
+[2024-08-08 20:26:19] [ ERROR] [BD:33] error inesperado: Syntax error in SQL statement "CREATE TABLE ODONTOLOGOS(NUMEROMATRICULA INT AUTO_INCREMENT PRIMARY KEY, NOMBRE VARCHAR(100) NOT NULL, APELLIDO VARCHAR(100) NOT NULL)[*]INSERT INTO ODONTOLOGOS(NOMBRE, APELLIDO) VALUES('Jesus','Mendoza'),('Ivonne','Ona')"; SQL statement:
+CREATE TABLE ODONTOLOGOS(NUMEROMATRICULA INT AUTO_INCREMENT PRIMARY KEY, NOMBRE VARCHAR(100) NOT NULL, APELLIDO VARCHAR(100) NOT NULL)INSERT INTO ODONTOLOGOS(NOMBRE, APELLIDO) VALUES('Jesus','Mendoza'),('Ivonne','Ona') [42000-224]
+[2024-08-08 20:26:19] [ INFO ] [OdontologoDAOH2:20] Guardando odontólogo: Jesus
+[2024-08-08 20:26:19] [ ERROR] [OdontologoDAOH2:34] Error al guardar odontólogo: Table "ODONTOLOGOS" not found; SQL statement:
+INSERT INTO ODONTOLOGOS (NOMBRE, APELLIDO) VALUES (?, ?) [42102-224]
+[2024-08-08 20:26:19] [ INFO ] [OdontologoDAOH2:20] Guardando odontólogo: Ivonne
+[2024-08-08 20:26:19] [ ERROR] [OdontologoDAOH2:34] Error al guardar odontólogo: Table "ODONTOLOGOS" not found; SQL statement:
+INSERT INTO ODONTOLOGOS (NOMBRE, APELLIDO) VALUES (?, ?) [42102-224]
+[2024-08-08 20:27:29] [ ERROR] [BD:33] error inesperado: Syntax error in SQL statement "CREATE TABLE ODONTOLOGOS(NUMEROMATRICULA INT AUTO_INCREMENT PRIMARY KEY, NOMBRE VARCHAR(100) NOT NULL, APELLIDO VARCHAR(100) NOT NULL)[*]INSERT INTO ODONTOLOGOS(NOMBRE, APELLIDO) VALUES('Jesus','Mendoza'),('Ivonne','Ona')"; SQL statement:
+CREATE TABLE ODONTOLOGOS(NUMEROMATRICULA INT AUTO_INCREMENT PRIMARY KEY, NOMBRE VARCHAR(100) NOT NULL, APELLIDO VARCHAR(100) NOT NULL)INSERT INTO ODONTOLOGOS(NOMBRE, APELLIDO) VALUES('Jesus','Mendoza'),('Ivonne','Ona') [42000-224]
+[2024-08-08 20:27:29] [ ERROR] [BD:33] error inesperado: Syntax error in SQL statement "CREATE TABLE ODONTOLOGOS(NUMEROMATRICULA INT AUTO_INCREMENT PRIMARY KEY, NOMBRE VARCHAR(100) NOT NULL, APELLIDO VARCHAR(100) NOT NULL)[*]INSERT INTO ODONTOLOGOS(NOMBRE, APELLIDO) VALUES('Jesus','Mendoza'),('Ivonne','Ona')"; SQL statement:
+CREATE TABLE ODONTOLOGOS(NUMEROMATRICULA INT AUTO_INCREMENT PRIMARY KEY, NOMBRE VARCHAR(100) NOT NULL, APELLIDO VARCHAR(100) NOT NULL)INSERT INTO ODONTOLOGOS(NOMBRE, APELLIDO) VALUES('Jesus','Mendoza'),('Ivonne','Ona') [42000-224]
+[2024-08-08 20:27:29] [ INFO ] [OdontologoDAOH2:20] Guardando odontólogo: Jesus
+[2024-08-08 20:27:30] [ ERROR] [OdontologoDAOH2:34] Error al guardar odontólogo: Table "ODONTOLOGOS" not found; SQL statement:
+INSERT INTO ODONTOLOGOS (NOMBRE, APELLIDO) VALUES (?, ?) [42102-224]
+[2024-08-08 20:27:30] [ INFO ] [OdontologoDAOH2:20] Guardando odontólogo: Ivonne
+[2024-08-08 20:27:30] [ ERROR] [OdontologoDAOH2:34] Error al guardar odontólogo: Table "ODONTOLOGOS" not found; SQL statement:
+INSERT INTO ODONTOLOGOS (NOMBRE, APELLIDO) VALUES (?, ?) [42102-224]
+[2024-08-08 20:29:00] [ INFO ] [BD:30] datos cargados con exito
+[2024-08-08 20:29:00] [ INFO ] [BD:30] datos cargados con exito
+[2024-08-08 20:29:00] [ INFO ] [OdontologoDAOH2:20] Guardando odontólogo: Jesus
+[2024-08-08 20:29:00] [ INFO ] [OdontologoDAOH2:32] Odontólogo guardado exitosamente con matrícula: 1
+[2024-08-08 20:29:00] [ INFO ] [OdontologoDAOH2:20] Guardando odontólogo: Ivonne
+[2024-08-08 20:29:00] [ INFO ] [OdontologoDAOH2:32] Odontólogo guardado exitosamente con matrícula: 2
+[2024-08-08 20:31:10] [ INFO ] [BD:30] datos cargados con exito
+[2024-08-08 20:31:10] [ INFO ] [BD:30] datos cargados con exito
+[2024-08-08 20:31:10] [ INFO ] [OdontologoDAOH2:20] Guardando odontólogo: Jesus
+[2024-08-08 20:31:10] [ INFO ] [OdontologoDAOH2:32] Odontólogo guardado exitosamente con matrícula: 1
+[2024-08-08 20:31:10] [ INFO ] [OdontologoDAOH2:20] Guardando odontólogo: Ivonne
+[2024-08-08 20:31:10] [ INFO ] [OdontologoDAOH2:32] Odontólogo guardado exitosamente con matrícula: 2
+[2024-08-08 20:34:03] [ INFO ] [BD:30] datos cargados con exito
+[2024-08-08 20:34:03] [ INFO ] [OdontologoDAOArrayList:16] Guardando odontólogo en ArrayList: Jesus
+[2024-08-08 20:34:03] [ INFO ] [OdontologoDAOArrayList:19] Odontólogo guardado en ArrayList exitosamente con matrícula: 1
+[2024-08-08 20:34:03] [ INFO ] [OdontologoDAOArrayList:16] Guardando odontólogo en ArrayList: Ivonne
+[2024-08-08 20:34:03] [ INFO ] [OdontologoDAOArrayList:19] Odontólogo guardado en ArrayList exitosamente con matrícula: 2
+[2024-08-08 20:34:03] [ INFO ] [OdontologoDAOArrayList:35] Listando todos los odontólogos en ArrayList
+[2024-08-08 20:40:16] [ INFO ] [BD:30] datos cargados con exito
+[2024-08-08 20:40:16] [ INFO ] [OdontologoDAOH2:21] Guardando odontólogo: Jesus
+[2024-08-08 20:40:16] [ INFO ] [OdontologoDAOH2:33] Odontólogo guardado exitosamente con matrícula: 1
+[2024-08-08 20:40:16] [ INFO ] [OdontologoDAOH2:21] Guardando odontólogo: Ivonne
+[2024-08-08 20:40:16] [ INFO ] [OdontologoDAOH2:33] Odontólogo guardado exitosamente con matrícula: 2
+[2024-08-08 20:40:16] [ INFO ] [OdontologoDAOH2:52] iniciando las operaciones de : listar
+[2024-08-08 20:40:43] [ INFO ] [BD:30] datos cargados con exito
+[2024-08-08 20:40:43] [ INFO ] [OdontologoDAOH2:21] Guardando odontólogo: Jesus
+[2024-08-08 20:40:43] [ INFO ] [OdontologoDAOH2:33] Odontólogo guardado exitosamente con matrícula: 1
+[2024-08-08 20:40:43] [ INFO ] [OdontologoDAOH2:21] Guardando odontólogo: Ivonne
+[2024-08-08 20:40:43] [ INFO ] [OdontologoDAOH2:33] Odontólogo guardado exitosamente con matrícula: 2
+[2024-08-08 20:40:43] [ INFO ] [OdontologoDAOH2:52] iniciando las operaciones de : listar
+[2024-08-08 20:41:30] [ INFO ] [BD:30] datos cargados con exito
+[2024-08-08 20:41:30] [ INFO ] [OdontologoDAOH2:21] Guardando odontólogo: Jesus
+[2024-08-08 20:41:30] [ INFO ] [OdontologoDAOH2:33] Odontólogo guardado exitosamente con matrícula: 1
+[2024-08-08 20:41:30] [ INFO ] [OdontologoDAOH2:21] Guardando odontólogo: Ivonne
+[2024-08-08 20:41:30] [ INFO ] [OdontologoDAOH2:33] Odontólogo guardado exitosamente con matrícula: 2
+[2024-08-08 20:41:30] [ INFO ] [OdontologoDAOH2:52] iniciando las operaciones de : listar
+[2024-08-08 20:41:51] [ INFO ] [BD:30] datos cargados con exito
+[2024-08-08 20:41:51] [ INFO ] [OdontologoDAOH2:21] Guardando odontólogo: Jesus
+[2024-08-08 20:41:51] [ INFO ] [OdontologoDAOH2:33] Odontólogo guardado exitosamente con matrícula: 1
+[2024-08-08 20:41:51] [ INFO ] [OdontologoDAOH2:21] Guardando odontólogo: Ivonne
+[2024-08-08 20:41:51] [ INFO ] [OdontologoDAOH2:33] Odontólogo guardado exitosamente con matrícula: 2
+[2024-08-08 20:41:51] [ INFO ] [OdontologoDAOH2:52] iniciando las operaciones de : listar
+[2024-08-08 20:42:00] [ INFO ] [BD:30] datos cargados con exito
+[2024-08-08 20:43:11] [ INFO ] [BD:30] datos cargados con exito
+[2024-08-08 20:43:11] [ INFO ] [OdontologoDAOH2:21] Guardando odontólogo: Jesus
+[2024-08-08 20:43:11] [ INFO ] [OdontologoDAOH2:33] Odontólogo guardado exitosamente con matrícula: 1
+[2024-08-08 20:43:11] [ INFO ] [OdontologoDAOH2:21] Guardando odontólogo: Ivonne
+[2024-08-08 20:43:11] [ INFO ] [OdontologoDAOH2:33] Odontólogo guardado exitosamente con matrícula: 2
+[2024-08-08 20:43:11] [ INFO ] [OdontologoDAOH2:52] iniciando las operaciones de : listar
+[2024-08-08 20:44:21] [ INFO ] [BD:30] datos cargados con exito
+[2024-08-08 20:44:21] [ INFO ] [OdontologoDAOH2:21] Guardando odontólogo: Jesus
+[2024-08-08 20:44:21] [ INFO ] [OdontologoDAOH2:33] Odontólogo guardado exitosamente con matrícula: 1
+[2024-08-08 20:44:21] [ INFO ] [OdontologoDAOH2:21] Guardando odontólogo: Ivonne
+[2024-08-08 20:44:21] [ INFO ] [OdontologoDAOH2:33] Odontólogo guardado exitosamente con matrícula: 2
+[2024-08-08 20:44:21] [ INFO ] [OdontologoDAOH2:52] iniciando las operaciones de : listar
+[2024-08-08 20:46:35] [ INFO ] [BD:30] datos cargados con exito
+[2024-08-08 20:46:35] [ INFO ] [OdontologoDAOH2:21] Guardando odontólogo: Jesus
+[2024-08-08 20:46:35] [ INFO ] [OdontologoDAOH2:33] Odontólogo guardado exitosamente con matrícula: 1
+[2024-08-08 20:46:35] [ INFO ] [OdontologoDAOH2:21] Guardando odontólogo: Ivonne
+[2024-08-08 20:46:35] [ INFO ] [OdontologoDAOH2:33] Odontólogo guardado exitosamente con matrícula: 2
+[2024-08-08 20:46:35] [ INFO ] [OdontologoDAOH2:52] iniciando las operaciones de : listar
+[2024-08-08 20:46:35] [ INFO ] [OdontologoDAOH2:65] [Odontologo{numeroMatricula=1, nombre='Jesus', apellido='Mendoza'}, Odontologo{numeroMatricula=2, nombre='Ivonne', apellido='Oña'}]
+[2024-08-08 20:46:49] [ INFO ] [BD:30] datos cargados con exito
+[2024-08-08 20:46:49] [ INFO ] [OdontologoDAOH2:21] Guardando odontólogo: Jesus
+[2024-08-08 20:46:49] [ INFO ] [OdontologoDAOH2:33] Odontólogo guardado exitosamente con matrícula: 1
+[2024-08-08 20:46:49] [ INFO ] [OdontologoDAOH2:21] Guardando odontólogo: Ivonne
+[2024-08-08 20:46:49] [ INFO ] [OdontologoDAOH2:33] Odontólogo guardado exitosamente con matrícula: 2
+[2024-08-08 20:46:49] [ INFO ] [OdontologoDAOH2:52] iniciando las operaciones de : listar
+[2024-08-08 20:46:49] [ INFO ] [OdontologoDAOH2:65] [Odontologo{numeroMatricula=1, nombre='Jesus', apellido='Mendoza'}, Odontologo{numeroMatricula=2, nombre='Ivonne', apellido='Oña'}]
